@@ -39,11 +39,9 @@ namespace AboHassansFart.ProgramLogic
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
-
                     case 1:
                         InspectLot();
                         break;
-
                     case 2:
                         InspectCars();
                         break;
